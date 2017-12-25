@@ -1,0 +1,33 @@
+{
+  "name": "Nan",
+  "version": "0.1.8",
+  "description": "GPLv3",
+  "main": "tcprelay.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "local": "node local.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seletiveq/NaN.git"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": " ",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Seletiveq/NaN/issues"
+  },
+  "homepage": "https://github.com/Seletiveq/NaN",
+  "dependencies": {
+    "bufferutil": "^3.0.0",
+    "commander": "^2.9.0",
+    "log4js": "^1.1.1",
+    "shadowsocks": "^1.5.3",
+    "throng": "^4.0.0",
+    "ws": "^2.2.3"
+  }
+}
